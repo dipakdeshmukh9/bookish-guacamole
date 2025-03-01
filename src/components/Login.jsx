@@ -9,8 +9,6 @@ const Login = () => {
 
   const handleButtonClick = () => {
     // checkValidData(email, password);
-    console.log(email.current.value);
-    console.log(password.current.value);
     const message = checkValidData(email.current.value, password.current.value);
     setErrorMessage(message);
   };
